@@ -1204,3 +1204,41 @@ LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
 [2025.10.19-09.45.11:142][209]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 323.366089
 [2025.10.19-09.45.12:141][212]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.10.19-09.45.12:141][212]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 324.033752, Update Interval: 334.390076
+[2025.10.19-09.48.51:225][620]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2025.10.19-09.48.51:228][620]LogStreaming: Display: FlushAsyncLoading(598): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.19-09.48.51:233][620]LogChaosDD: Creating Chaos Debug Draw Scene for world Maze
+[2025.10.19-09.48.51:234][620]LogWorldPartition: ULevel::OnLevelLoaded(Maze)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.10.19-09.48.51:234][620]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.10.19-09.48.51:234][620]LogWorldPartition: UWorldPartition::Initialize : World = /Game/OtherWorld/Maze.Maze, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.10.19-09.48.51:265][620]LogWorldPartition: Display: WorldPartition initialize took 30.462 ms (total: 88.138 ms)
+[2025.10.19-09.48.51:266][620]LogAssetEditorSubsystem: Opening Asset editor for World /Game/OtherWorld/Maze.Maze
+[2025.10.19-09.48.51:267][620]Cmd: MAP LOAD FILE="../../../../../../Unreal5-2/Carnival2/Content/OtherWorld/Maze.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.10.19-09.48.51:328][620]LogWorld: UWorld::CleanupWorld for Lvl_FirstPerson, bSessionEnded=true, bCleanupResources=true
+[2025.10.19-09.48.51:328][620]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.19-09.48.51:329][620]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson
+[2025.10.19-09.48.51:365][620]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.19-09.48.51:369][620]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2025.10.19-09.48.51:371][620]LogWorld: UWorld::CleanupWorld for Maze, bSessionEnded=true, bCleanupResources=true
+[2025.10.19-09.48.51:371][620]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.19-09.48.51:371][620]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/OtherWorld/Maze.Maze
+[2025.10.19-09.48.51:402][620]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2025.10.19-09.48.51:507][620]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2025.10.19-09.48.51:516][620]LogAudio: Display: Audio Device (ID: 1) registered with world 'Maze'.
+[2025.10.19-09.48.51:516][620]LogChaosDD: Creating Chaos Debug Draw Scene for world Maze
+[2025.10.19-09.48.51:518][620]LogWorldPartition: ULevel::OnLevelLoaded(Maze)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.10.19-09.48.51:518][620]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.10.19-09.48.51:518][620]LogWorldPartition: UWorldPartition::Initialize : World = /Game/OtherWorld/Maze.Maze, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.10.19-09.48.51:720][620]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2025.10.19-09.48.51:731][620]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2025.10.19-09.48.51:736][620]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2025.10.19-09.48.51:740][620]LogDeviceProfileManager: Going up to parent DeviceProfile [AppleTV]
+[2025.10.19-09.48.51:740][620]LogDeviceProfileManager: Going up to parent DeviceProfile [IOS]
+[2025.10.19-09.48.51:740][620]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2025.10.19-09.48.51:746][620]LogDeviceProfileManager: Display: Deviceprofile None not found.
+[2025.10.19-09.48.51:955][620]LogWorldPartition: Display: WorldPartition initialize took 436.892 ms (total: 525.030 ms)
+[2025.10.19-09.48.52:130][620]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.10.19-09.48.52:162][620]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2025.10.19-09.48.52:172][620]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.10.19-09.48.52:175][620]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 2.411ms to complete.
+[2025.10.19-09.48.52:621][620]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/__ExternalActors__/OtherWorld/Maze/0/1A/FJBZ9AVMYL2MZ9IJ51NTW8) ...
+[2025.10.19-09.48.52:654][620]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/__ExternalActors__/OtherWorld/Maze/2/C2/UDPHRSZNOU0DQYMPHZHENF) ...
